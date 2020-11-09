@@ -102,7 +102,7 @@ do
   echo "...$c up..."
   echo ""
   docker-compose -f "$TRAEFIK2DIR/ymlfiles/$c.yml" -p $c up -d
-  done"
+  done
 ```
 
 Then, in my **.bash_aliases** file I've added:
